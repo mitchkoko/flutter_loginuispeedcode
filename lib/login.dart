@@ -14,7 +14,9 @@ class _LoginScreenState extends State<LoginScreen> {
         children: <Widget>[
           Expanded(
             child: Container(
-              child: Image.asset('lib/images/tuteelogo.png'),
+              height: 100,
+              width: 100,
+              child: Image.asset('lib/images/tuteelogo.png', fit: BoxFit.contain,),
             ),
           ),
           Expanded(
